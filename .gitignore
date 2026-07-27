@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.DS_Store
+Thumbs.db
+*.log
+.env
+.vscode/
+.idea/
+
+# file xem thu tu sinh
+preview-*.html

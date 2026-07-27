@@ -1,0 +1,230 @@
+[
+  {
+    "slug": "oxford-co-dien-vl01",
+    "name": "Giày tây Oxford cổ điển VL01",
+    "category": "giay-tay",
+    "price": 890000,
+    "oldPrice": 1150000,
+    "badge": "Bán chạy",
+    "featured": true,
+    "colors": [{ "name": "Nâu đất", "hex": "#7A4A2B" }, { "name": "Đen", "hex": "#1C1917" }],
+    "sizes": [38, 39, 40, 41, 42, 43],
+    "short": "Dáng Oxford buộc dây kín, mũi trơn không hoa văn — mẫu an toàn nhất cho công sở và lễ cưới.",
+    "details": [
+      "Da bò thật lớp mặt, bề mặt mịn, càng đi càng lên màu",
+      "Đế cao su non khâu chỉ, chống trơn tốt trên gạch ướt",
+      "Lót trong da lộn, thấm hút mồ hôi, hạn chế hôi chân",
+      "Cao đế 3cm, tôn dáng nhưng vẫn đi được cả ngày"
+    ],
+    "care": "Lau bụi bằng khăn ẩm sau mỗi lần đi, đánh xi 2 tuần/lần, dùng cây giữ form khi cất."
+  },
+  {
+    "slug": "derby-mui-tron-vl02",
+    "name": "Giày tây Derby mũi trơn VL02",
+    "category": "giay-tay",
+    "price": 790000,
+    "oldPrice": null,
+    "badge": "",
+    "featured": true,
+    "colors": [{ "name": "Nâu sáng", "hex": "#96603A" }, { "name": "Đen", "hex": "#1C1917" }],
+    "sizes": [38, 39, 40, 41, 42, 43, 44],
+    "short": "Derby buộc dây hở, ôm chân dễ chịu hơn Oxford — hợp người mu bàn chân cao.",
+    "details": [
+      "Da bò thật, đường may đều tay",
+      "Đế PU nhẹ, giảm mỏi khi đứng lâu",
+      "Form vừa chân tiêu chuẩn, không cần lên size",
+      "Cao đế 2,5cm"
+    ],
+    "care": "Tránh ngâm nước. Nếu dính mưa, nhét giấy báo vào trong và để khô tự nhiên nơi thoáng."
+  },
+  {
+    "slug": "oxford-wingtip-vl03",
+    "name": "Giày tây Oxford Wingtip VL03",
+    "category": "giay-tay",
+    "price": 1150000,
+    "oldPrice": 1390000,
+    "badge": "Cao cấp",
+    "featured": false,
+    "colors": [{ "name": "Nâu đỏ", "hex": "#6B3A24" }],
+    "sizes": [39, 40, 41, 42, 43],
+    "short": "Hoa văn đục lỗ chữ W ở mũi, dành cho người muốn nổi bật hơn giày tây trơn.",
+    "details": [
+      "Da bò thật dập vân, đục lỗ thủ công",
+      "Đế cao su khâu chỉ Goodyear giả lập, thay đế được",
+      "Lót đệm êm gót, chống tuột",
+      "Cao đế 3cm"
+    ],
+    "care": "Đánh xi cùng tông màu 2 tuần/lần, dùng bàn chải mềm làm sạch các lỗ đục."
+  },
+  {
+    "slug": "loafer-khoa-ngang-vl04",
+    "name": "Giày lười Loafer khóa ngang VL04",
+    "category": "giay-luoi",
+    "price": 690000,
+    "oldPrice": 850000,
+    "badge": "Bán chạy",
+    "featured": true,
+    "colors": [{ "name": "Nâu đất", "hex": "#7A4A2B" }, { "name": "Đen", "hex": "#1C1917" }],
+    "sizes": [38, 39, 40, 41, 42, 43],
+    "short": "Xỏ vào là đi, khóa kim loại mạ nhám không bị chói — mẫu bán chạy nhất mùa hè.",
+    "details": [
+      "Da bò thật mềm, không cần thời gian đi rão",
+      "Đế cao su rãnh sâu, bám đường tốt",
+      "Không dây, tiện cho người hay ra vào cởi giày",
+      "Cao đế 2cm"
+    ],
+    "care": "Lau khô sau khi đi mưa, tránh phơi nắng gắt làm da co cứng."
+  },
+  {
+    "slug": "moccasin-khau-tay-vl05",
+    "name": "Giày lười Moccasin khâu tay VL05",
+    "category": "giay-luoi",
+    "price": 750000,
+    "oldPrice": null,
+    "badge": "",
+    "featured": false,
+    "colors": [{ "name": "Nâu sáng", "hex": "#96603A" }, { "name": "Xanh navy", "hex": "#1E293B" }],
+    "sizes": [38, 39, 40, 41, 42, 43, 44],
+    "short": "Đường khâu chữ U ở mũi làm thủ công, mềm như dép nhưng vẫn đủ lịch sự.",
+    "details": [
+      "Da bò thật lớp mỏng, gập được không gãy mặt",
+      "Đế cao su đúc liền, nhẹ 320g/chiếc",
+      "Lót vải cotton thoáng",
+      "Cao đế 2cm"
+    ],
+    "care": "Dùng kem dưỡng da 1 tháng/lần để da không bị khô nứt."
+  },
+  {
+    "slug": "loafer-tassel-vl06",
+    "name": "Giày lười chuông Tassel VL06",
+    "category": "giay-luoi",
+    "price": 820000,
+    "oldPrice": null,
+    "badge": "Mới",
+    "featured": false,
+    "colors": [{ "name": "Nâu đỏ", "hex": "#6B3A24" }, { "name": "Đen", "hex": "#1C1917" }],
+    "sizes": [39, 40, 41, 42, 43],
+    "short": "Chuông da rủ trước mũi, phá cách nhẹ nhàng cho quần âu hoặc chinos.",
+    "details": [
+      "Da bò thật bóng nhẹ",
+      "Chuông da may chắc, không rụng sau vài tháng",
+      "Đế cao su non chống trượt",
+      "Cao đế 2,5cm"
+    ],
+    "care": "Tránh để chuông da bị kẹp vào cửa hoặc bánh xe."
+  },
+  {
+    "slug": "chelsea-boot-vl07",
+    "name": "Chelsea Boot cổ chun VL07",
+    "category": "giay-boot",
+    "price": 1250000,
+    "oldPrice": 1490000,
+    "badge": "Cao cấp",
+    "featured": true,
+    "colors": [{ "name": "Nâu đất", "hex": "#7A4A2B" }, { "name": "Đen", "hex": "#1C1917" }],
+    "sizes": [39, 40, 41, 42, 43],
+    "short": "Không dây, hai bên chun co giãn — kéo là vào chân, tôn dáng cho người thấp.",
+    "details": [
+      "Da bò thật dày 1,6mm, giữ form tốt qua nhiều mùa",
+      "Chun cao su chất lượng, không giãn nhão sau 6 tháng",
+      "Đế cao su khâu chỉ, cao 3,5cm",
+      "Quai kéo sau gót giúp xỏ nhanh"
+    ],
+    "care": "Cất nơi khô ráo, nhét cây giữ form để cổ giày không gập nếp."
+  },
+  {
+    "slug": "boot-co-lung-buoc-day-vl08",
+    "name": "Boot cổ lửng buộc dây VL08",
+    "category": "giay-boot",
+    "price": 1090000,
+    "oldPrice": null,
+    "badge": "",
+    "featured": false,
+    "colors": [{ "name": "Nâu sáng", "hex": "#96603A" }],
+    "sizes": [39, 40, 41, 42, 43, 44],
+    "short": "Cổ cao qua mắt cá, dáng bụi bặm hợp quần jeans và áo khoác dạ.",
+    "details": [
+      "Da bò thật sần, ít lộ vết xước",
+      "Đế lốp rãnh sâu, đi đường trơn và địa hình xấu tốt",
+      "Lót lông cừu nhân tạo mỏng, ấm nhẹ cho mùa đông",
+      "Cao đế 4cm"
+    ],
+    "care": "Dùng bàn chải lông mềm chải bụi, không đánh xi bóng lên da sần."
+  },
+  {
+    "slug": "sneaker-da-tron-vl09",
+    "name": "Sneaker da trơn VL09",
+    "category": "sneaker-da",
+    "price": 650000,
+    "oldPrice": 790000,
+    "badge": "Bán chạy",
+    "featured": true,
+    "colors": [{ "name": "Trắng kem", "hex": "#E8E3DA" }, { "name": "Đen", "hex": "#1C1917" }],
+    "sizes": [38, 39, 40, 41, 42, 43, 44],
+    "short": "Sneaker da trơn không logo, mặc được cả với quần âu lẫn quần jeans.",
+    "details": [
+      "Da bò thật phủ lớp chống bám bẩn",
+      "Đế cao su đúc, êm chân khi đi bộ nhiều",
+      "Lót tháo rời được, giặt riêng dễ dàng",
+      "Cao đế 3cm"
+    ],
+    "care": "Lau vết bẩn ngay bằng khăn ẩm. Với màu trắng kem, tránh để dính bùn lâu."
+  },
+  {
+    "slug": "sneaker-da-co-thap-vl10",
+    "name": "Sneaker da cổ thấp VL10",
+    "category": "sneaker-da",
+    "price": 720000,
+    "oldPrice": null,
+    "badge": "Mới",
+    "featured": false,
+    "colors": [{ "name": "Xám đá", "hex": "#57534E" }, { "name": "Xanh navy", "hex": "#1E293B" }],
+    "sizes": [39, 40, 41, 42, 43],
+    "short": "Phối da lộn ở gót, nhẹ và thoáng hơn sneaker da trơn.",
+    "details": [
+      "Da bò kết hợp da lộn, thoáng khí hơn",
+      "Đế cao su rãnh chéo chống trượt",
+      "Trọng lượng 290g/chiếc",
+      "Cao đế 2,5cm"
+    ],
+    "care": "Phần da lộn dùng bàn chải chuyên dụng, không lau bằng khăn ướt."
+  },
+  {
+    "slug": "sandal-quai-cheo-vl11",
+    "name": "Sandal da quai chéo VL11",
+    "category": "sandal-da",
+    "price": 450000,
+    "oldPrice": 560000,
+    "badge": "",
+    "featured": false,
+    "colors": [{ "name": "Nâu đất", "hex": "#7A4A2B" }, { "name": "Đen", "hex": "#1C1917" }],
+    "sizes": [38, 39, 40, 41, 42, 43],
+    "short": "Quai chéo bản to, ôm chân chắc, đi làm ngày nắng hoặc đi chơi đều hợp.",
+    "details": [
+      "Da bò thật, quai may 2 lớp không bung",
+      "Đế cao su bản dày 2cm, êm gót",
+      "Khóa dán điều chỉnh được độ rộng",
+      "Chịu nước nhẹ"
+    ],
+    "care": "Rửa nhanh bằng nước sạch, lau khô ngay, không ngâm."
+  },
+  {
+    "slug": "dep-da-quai-ngang-vl12",
+    "name": "Dép da quai ngang VL12",
+    "category": "sandal-da",
+    "price": 390000,
+    "oldPrice": null,
+    "badge": "",
+    "featured": false,
+    "colors": [{ "name": "Nâu sáng", "hex": "#96603A" }, { "name": "Đen", "hex": "#1C1917" }],
+    "sizes": [39, 40, 41, 42, 43, 44],
+    "short": "Dép quai ngang bản to, đi trong nhà và ra ngoài gần đều tiện.",
+    "details": [
+      "Da bò thật mềm, không cọ chân",
+      "Đế cao su chống trơn khi sàn ướt",
+      "Nhẹ, 240g/chiếc",
+      "Form rộng rãi, người bàn chân bè đi vẫn thoải mái"
+    ],
+    "care": "Lau sạch sau khi đi, tránh để dưới nắng gắt."
+  }
+]

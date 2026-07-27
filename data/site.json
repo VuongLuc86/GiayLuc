@@ -1,0 +1,48 @@
+{
+  "_huong_dan": "SỬA CÁC THÔNG TIN DƯỚI ĐÂY THÀNH THÔNG TIN THẬT CỦA BẠN. Các giá trị hiện tại chỉ là ví dụ.",
+
+  "brand": "Vương Lực",
+  "tagline": "Giày da nam bền dáng, đi cả ngày không mỏi",
+  "description": "Vương Lực chuyên giày da nam phân khúc bình dân đến trung cấp: giày tây, giày lười, boot và sneaker da. Da thật, đế khâu chắc, bảo hành 12 tháng, giao toàn quốc, thanh toán khi nhận hàng.",
+
+  "url": "https://vuongluc.com",
+
+  "contact": {
+    "hotline": "0900 000 000",
+    "hotlineRaw": "0900000000",
+    "zalo": "0900000000",
+    "email": "lucvv86@gmail.com",
+    "address": "Số 000, đường ABC, quận XYZ, Hải Phòng",
+    "workingHours": "8:00 - 21:00 (Thứ 2 - Chủ nhật)",
+    "facebook": "https://facebook.com/"
+  },
+
+  "order": {
+    "_huong_dan": "Để trống endpoint thì đơn hàng sẽ gửi qua Zalo. Xem README mục 'Nhận đơn hàng' để gắn Google Sheet.",
+    "endpoint": "",
+    "freeShippingFrom": 500000,
+    "shippingFee": 30000
+  },
+
+  "usp": [
+    { "icon": "shield",  "title": "Bảo hành 12 tháng",      "text": "Bung keo, hở đế, gãy gót đều được bảo hành miễn phí." },
+    { "icon": "refresh", "title": "Đổi size trong 7 ngày",  "text": "Đi thử trong nhà, không vừa chân thì đổi size miễn phí." },
+    { "icon": "truck",   "title": "Miễn phí giao từ 500K",  "text": "Giao toàn quốc, kiểm tra hàng rồi mới thanh toán." },
+    { "icon": "leather", "title": "Da thật, đế khâu chỉ",   "text": "Da bò thật, đế khâu chỉ chắc chắn thay vì chỉ dán keo." }
+  ],
+
+  "categories": [
+    { "slug": "giay-tay",   "name": "Giày tây",         "desc": "Oxford, Derby cho công sở, cưới hỏi, sự kiện trang trọng." },
+    { "slug": "giay-luoi",  "name": "Giày lười",        "desc": "Loafer, moccasin — xỏ vào là đi, hợp mọi ngày trong tuần." },
+    { "slug": "giay-boot",  "name": "Giày boot",        "desc": "Chelsea boot, boot cổ lửng cho mùa lạnh và phong cách bụi bặm." },
+    { "slug": "sneaker-da", "name": "Sneaker da",       "desc": "Sneaker da trơn, phối được cả quần jeans lẫn quần âu." },
+    { "slug": "sandal-da",  "name": "Sandal & dép da",  "desc": "Thoáng chân cho mùa hè mà vẫn giữ nét lịch sự." }
+  ],
+
+  "policies": {
+    "shipping": "Giao hàng toàn quốc qua Viettel Post / GHTK. Nội thành Hải Phòng 1 ngày, tỉnh khác 2-4 ngày. Phí 30.000đ, miễn phí cho đơn từ 500.000đ.",
+    "payment": "Thanh toán khi nhận hàng (COD). Được mở hộp kiểm tra hàng trước khi trả tiền.",
+    "returns": "Đổi size hoặc đổi mẫu khác trong 7 ngày nếu giày còn mới, chưa đi ngoài trời, còn đủ hộp và phụ kiện. Khách chịu phí ship chiều đổi.",
+    "warranty": "Bảo hành 12 tháng cho lỗi bung keo, hở đế, gãy gót, đứt chỉ. Không bảo hành hư hỏng do ngâm nước, hóa chất, va đập mạnh hoặc tự ý sửa chữa."
+  }
+}

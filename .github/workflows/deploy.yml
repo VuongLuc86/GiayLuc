@@ -1,0 +1,61 @@
+# Tự động build và đưa web lên Hostinger mỗi khi đẩy code lên nhánh main.
+#
+# TRƯỚC KHI DÙNG, vào GitHub > Settings > Secrets and variables > Actions
+# và tạo 3 secret sau (lấy trong hPanel Hostinger > Files > Tài khoản FTP):
+#   FTP_SERVER    ví dụ: ftp.tenmiencuaban.com
+#   FTP_USERNAME  tên đăng nhập FTP
+#   FTP_PASSWORD  mật khẩu FTP
+#
+# Nếu chưa cấu hình secret, workflow sẽ bỏ qua bước tải lên (không báo lỗi đỏ).
+
+name: Build và deploy lên Hostinger
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lấy mã nguồn
+        uses: actions/checkout@v4
+
+      - name: Cài Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build website
+        run: node build.js
+
+      - name: Kiểm tra đã có thông tin FTP chưa
+        id: check
+        run: |
+          if [ -n "${{ secrets.FTP_SERVER }}" ]; then
+            echo "ready=true" >> $GITHUB_OUTPUT
+          else
+            echo "ready=false" >> $GITHUB_OUTPUT
+            echo "Chưa cấu hình secret FTP — bỏ qua bước tải lên."
+          fi
+
+      - name: Tải lên Hostinger qua FTP
+        if: steps.check.outputs.ready == 'true'
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./dist/
+          server-dir: /public_html/
+          exclude: |
+            **/.git*
+            **/.git*/**
+
+      - name: Lưu bản build để tải về thủ công
+        uses: actions/upload-artifact@v4
+        with:
+          name: website-dist
+          path: dist/
+          retention-days: 14
